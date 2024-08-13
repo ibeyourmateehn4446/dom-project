@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dba7a7;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; 
+    margin: 20px auto;
+    border: 20px solid #2980b9;
+    display: inline-block;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #7d2121;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: navy;
+}
+
+#change-color-btn:hover {
+    background-color: #324b5c;
+}
